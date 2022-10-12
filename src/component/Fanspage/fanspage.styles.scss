@@ -1,0 +1,96 @@
+.fanspage-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+
+    .youtube {
+        display: flex;
+        width: 70vh;
+        vertical-align: baseline;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+        border: 2px solid #3c3c3c;
+        padding: 10px;
+        margin: 5px;
+
+        img {
+            width: 80px;
+            height: 50px;
+            justify-content: flex-start;
+            top:50px;
+        }
+
+        span {
+            margin-left: 50px;
+            font-size: 25px;
+            font: inherit;
+            color: black;
+            justify-content: center;
+        }
+
+        div {
+            display: flex;
+            justify-content: center;
+            color: white;
+            background-color: red;
+            border: 5px solid red;
+            border-radius: 100%;
+            width: 30px;
+            height: 30px;
+            margin-left: 50px;
+        }
+    }
+    .youtube:hover {
+        border-color: red;
+    }
+
+    .facebook {
+        display: flex;
+        width: 70vh;
+        vertical-align: baseline;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+        border: 2px solid #3c3c3c;
+        transition: color 0.15s ease-out;
+        padding: 10px;
+        margin: 5px;
+
+        img {
+            display: flex;
+            width: 50px;
+            height: 50px;
+            justify-content: flex-start;
+            top:50px;
+        }
+
+        span {
+            margin-left: 50px;
+            font-size: 20px;
+            color: black;
+            justify-content: center;
+        }
+
+        div {
+            display: flex;
+            justify-content: center;
+            color: white;
+            background-color: #4585FB;
+            border: 5px solid #4585FB;
+            border-radius: 100%;
+            width: 30px;
+            height: 30px;
+            margin-left: 50px;
+        }
+    }
+    .facebook:hover {
+        border-color: #4585FB;
+    }
+}
+

@@ -1,0 +1,20 @@
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.text {
+  border-bottom: 1px solid #E6E6E6;
+  color: #3c3c3c;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.card-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+  border-bottom: 1px solid #3c3c3c;
+  }

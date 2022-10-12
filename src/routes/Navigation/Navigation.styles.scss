@@ -1,0 +1,55 @@
+* {
+  color: lightslategray;
+}
+
+.Navigation-Container {
+  margin: 0;
+  margin-bottom: 1rem;
+  padding: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  margin-bottom: 2px;
+  height: 70px;
+  border-bottom: 0.5px solid #dfdada;
+  
+  .Logo-Container {
+    display: flex;
+    justify-items: flex-start;
+  }
+
+  .List-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    flex-direction: row;
+    margin-left: 100px;
+
+    span {
+      padding-left: 10px;
+    }
+
+    .Amiibo-Link {
+      margin-left: 50px;
+      padding: 10px 15px;
+    }
+
+    .Software-Link {
+      margin-left: 70px;
+      padding: 10px 15px;
+    }
+
+    .News-Link {
+      margin-left: 70px;
+      padding: 10px 15px;
+    }
+
+    .Helpservice-Link {
+      margin-left: 70px;
+      padding: 10px 15px;
+    }
+  }
+}
+

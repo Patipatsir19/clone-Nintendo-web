@@ -1,0 +1,42 @@
+.adimage-container {
+  height: 80vh;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+
+  .slider {
+    flex-shrink: 0;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    transition: 750ms ease-in-out;
+  }
+}
+
+.next,
+.prev {
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  top: 35%;
+  width: auto;
+  padding: 50px 15px;
+  color: white;
+  font-size: 18px;
+  border: 0;
+  background-color: red;
+  transition: 500ms ease;
+}
+
+.next {
+  right: -1px;
+}
+
+.adimage-container:hover .next{
+  display: inline;
+}
+
+.adimage-container:hover .prev{
+  display: inline;
+}
