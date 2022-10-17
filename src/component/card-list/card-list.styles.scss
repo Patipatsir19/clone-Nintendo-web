@@ -1,20 +1,48 @@
 .container {
   width: 70%;
   margin: auto;
+  border: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .text {
-  border-bottom: 1px solid #E6E6E6;
+  position: relative;
+  width: 70%;
+  border-bottom: 1px solid #e6e6e6;
   color: #3c3c3c;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  padding-bottom: 50px;
   font-size: 20px;
   font-weight: bold;
   padding: 10px;
+  left: 14rem;
 }
 
 .card-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 5px;
-  border-bottom: 1px solid #3c3c3c;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+
+.menu ul {
+  display: flex;
+  font-size: small;
+  justify-content: center;
+  flex-direction: row;
+  list-style: none;
+  opacity: 1;
+  margin: 20px 0;
+
+  li {
+    margin: 0 20px;
+
+    :hover {
+      opacity: 0.4;
+    }
   }
+}

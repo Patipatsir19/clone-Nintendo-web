@@ -1,12 +1,19 @@
-import './button.styles.scss';
+import "./button.styles.scss";
 
 const BUTTON_TYPE_CLASSES = {
- LoadMore: 'Loadmore'
+  othergame: "othergame",
+  othercontent: "othercontent",
 };
 
-const Button = () => {
-
-
+const Button = ({ children, buttonType, ...otherProps }) => {
+  return (
+    <button
+      className={`button-container ${BUTTON_TYPE_CLASSES[buttonType]}`}
+      {...otherProps}
+    >
+      {children}
+    </button>
+  );
 };
 
 export default Button;
