@@ -1,3 +1,5 @@
+import advertImage from "../../Asset/advert.jpg";
+
 import "./fanspage.styles.scss";
 
 const FansPage = () => {
@@ -21,6 +23,11 @@ const FansPage = () => {
           <span>Facebook</span>
           <div>&#10095;</div>
         </a>
+        <div className="advert">
+        <a href="https://www.nintendo.com/th/switch/index.html">
+          <img src={advertImage} alt="" />
+        </a>
+      </div>
     </div>
   );
 };

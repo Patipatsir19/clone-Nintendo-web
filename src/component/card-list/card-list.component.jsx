@@ -1,8 +1,6 @@
 import { useState } from "react";
 import { gamedata } from "../../gamedata";
 
-import advertImage from "../../Asset/advert.jpg";
-
 import Card from "../card/card.component";
 import Button from "../button/button.component";
 
@@ -17,11 +15,6 @@ const CardList = () => {
 
   return (
     <div>
-      <div className="advert">
-        <a href="https://www.nintendo.com/th/switch/index.html">
-          <img src={advertImage} alt="" />
-        </a>
-      </div>
       <div className="text">ซอฟต์แวร์เกม Nintendo Switch</div>
       <div className="container">
         <div className="card-list">

@@ -32,3 +32,15 @@ export const NewsNav = () => {
         </div>
     )
 }
+
+export const Fixing = () => {
+    return (
+        <div>
+            <ul>
+                <li>บริการช่วยเหลือ Nintendo Switch</li>
+                <li>คำถามที่พบบ่อย</li>
+                <li>การซ่อมอุปกรณ์</li>
+            </ul>
+        </div>
+    )
+}
