@@ -15,7 +15,7 @@ const CardList = () => {
 
   return (
     <div>
-      <div className="text">ซอฟต์แวร์เกม Nintendo Switch</div>
+      <div className="software-text">ซอฟต์แวร์เกม Nintendo Switch</div>
       <div className="container">
         <div className="card-list">
           {gamedata.slice(0, visible).map((card) => (

@@ -1,5 +1,6 @@
 import AdvertSlide from "../../component/advert/advert.component";
 import FansPage from "../../component/Fanspage/fanspage.component";
+import NewsList from "../../component/news-list/news-list.component";
 import CardList from "../../component/card-list/card-list.component";
 import Navbar from "../../component/nav-bar/nav-bar.component";
 
@@ -15,6 +16,7 @@ const Home = () => {
       <Navbar/>
       <AdvertSlide images={[adImage1, adImage2, adImage3, adImage4]} />
       <FansPage/>
+      <NewsList/>
       <CardList/>
     </div>
   );
