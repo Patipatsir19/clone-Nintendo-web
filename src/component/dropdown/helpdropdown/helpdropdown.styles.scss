@@ -1,0 +1,36 @@
+.help {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    top: 3rem;
+    right: 0.03rem;
+    position: absolute;
+    background-color: #dfdfdf;
+    list-style: none;
+    text-align: start;
+  }
+  
+  .help li {
+    background: #dfdfdf;
+    margin: 0 50px;
+    cursor: pointer;
+  }
+  
+  .help li div:hover {
+    color: red;
+  }
+  
+  .help .clicked {
+    display: none;
+  }
+  
+  .help-subnav {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    padding: 16px;
+  }

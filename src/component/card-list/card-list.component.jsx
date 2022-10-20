@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { gamedata } from "../../gamedata";
+import { gamedata } from "../../Asset/gamedata";
 
 import Card from "../card/card.component";
 import Button from "../button/button.component";
