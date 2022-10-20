@@ -1,6 +1,7 @@
 import { useState } from "react";
 
-import { Newssubnav } from "../../../Asset/dropdowndata";
+import NewsCard from "../../news-card/news-card.component";
+import { newsdata } from "../../../Asset/Newsdata";
 
 import "./newsdropdown.styles.scss";
 
@@ -11,16 +12,11 @@ const NewsDropdown = () => {
       className={dropdown ? "News clicked" : "News"}
       onClick={() => setDropdown(!dropdown)}
     >
-      {Newssubnav.map((item) => {
-        const { id, path, cName, title } = item;
-        return (
-          <li key={id}>
-            <div to={path} className={cName} onClick={() => setDropdown(false)}>
-              {title}
-            </div>
-          </li>
-        );
-      })}
+      <li>
+        {newsdata.slice(0, 4).map((card) => (
+          <NewsCard key={card.id} card={card} />
+        ))}
+      </li>
     </ul>
   );
 };
