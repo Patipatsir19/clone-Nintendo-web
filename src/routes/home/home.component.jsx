@@ -3,11 +3,13 @@ import FansPage from "../../component/Fanspage/fanspage.component";
 import NewsList from "../../component/news-list/news-list.component";
 import CardList from "../../component/card-list/card-list.component";
 import Navbar from "../../component/nav-bar/nav-bar.component";
+import Footer from "../../component/footer/footer.component";
 
 import adImage1 from "../../Asset/advert.image/Kirby.jpg";
 import adImage2 from "../../Asset/advert.image/Splatoon.jpg";
 import adImage3 from "../../Asset/advert.image/Xenoblade.jpg";
 import adImage4 from "../../Asset/advert.image/pokemon.jpg"
+
 
 
 const Home = () => {
@@ -18,6 +20,7 @@ const Home = () => {
       <FansPage/>
       <NewsList/>
       <CardList/>
+      <Footer/>
     </div>
   );
 };

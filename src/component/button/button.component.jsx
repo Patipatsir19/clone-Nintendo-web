@@ -3,6 +3,7 @@ import "./button.styles.scss";
 const BUTTON_TYPE_CLASSES = {
   othergame: "othergame",
   othercontent: "othercontent",
+  returntotop: "returntotop"
 };
 
 const Button = ({ children, buttonType, ...otherProps }) => {
